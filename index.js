@@ -17,9 +17,7 @@ form.addEventListener('submit', (evt) => {
                 console.log(data);
                 console.log(data.contents.translated);
                 output.innerText = `${data.contents.translated}`;
-        }).catch(error => {
-            console.log(errorHandler);
-        })
+        }).catch(errorHandler);
     })
 });
 
