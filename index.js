@@ -22,4 +22,4 @@ form.addEventListener("submit", (evt) => {
         errorHandler(error);
       });
   });
-
+});
